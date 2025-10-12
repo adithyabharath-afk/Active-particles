@@ -1,0 +1,10 @@
+^C:\USERS\ADITH\ONEDRIVE\DESKTOP\THESISPROJECT\BUILD\CMAKEFILES\DE103687DDBA8E9C1A12F8B0AF35F48D\GENERATE.STAMP.RULE
+setlocal
+C:\Users\adith\OneDrive\Desktop\cmake\cmake-4.1.0-windows-x86_64\bin\cmake.exe -SC:/Users/adith/OneDrive/Desktop/ThesisProject -BC:/Users/adith/OneDrive/Desktop/ThesisProject/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/adith/OneDrive/Desktop/ThesisProject/build/ThesisProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

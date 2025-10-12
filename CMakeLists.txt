@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.4...3.18)
+project(ThesisProject)
+find_package(Python3 COMPONENTS Interpreter Development REQUIRED)
+find_package(pybind11 REQUIRED)
+file(GLOB_RECURSE SOURCES "src/*.cpp")
+pybind11_add_module(molsim ${SOURCES})
