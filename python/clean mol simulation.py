@@ -3,16 +3,16 @@ from numba import njit
 import matplotlib.pyplot as plt
 import molsim
 from matplotlib.animation import FuncAnimation
-#reduced parameters(sigma=1,epsilon=1,m=1)
+#reduced parameters(sigma=1,epsilon=1,m=1)#Peclet number
 T=0.25 # Temperature in reduced units#0.85
-t=0.009  # Time step in reduced units
-rho=0.5 #0.840
+t=0.001  # Time step in reduced units
+rho=0.4 #0.840
 N=108
-reps=10000
+reps=100000
 r_c=3  # Cutoff radius for the Lennard-Jones potential
 Dr=0.1 #scaling of the random rotation
-gamma=10  # Friction coefficient for Langevin thermostat
-v0=5 #self propulsion velocity
+gamma=1  # Friction coefficient for Langevin thermostat
+v0=45 #self propulsion velocity
 sigma=np.sqrt(2*gamma*T)  # Noise strength for Langevin thermostat
 mag=1 #scaling factor for the box size in the plot
 #initial positions and velocities
@@ -243,9 +243,9 @@ def animate(plot_cords,interval=50):
         ax.clear()#erases everything on the ax plotting area,the points,the tilte , the dimentions everything
         cords=plot_cords[frame]
         ax.scatter(cords[:,0],cords[:,1],cords[:,2])
-        ax.set_xlim([-mag*L,mag*L])
-        ax.set_ylim([-mag*L, mag*L])
-        ax.set_zlim([-mag*L, mag*L])
+        ax.set_xlim([0,L])
+        ax.set_ylim([0,L])
+        ax.set_zlim([0,L])
         ax.set_title(f"time{frame*100}")
     ani=FuncAnimation(fig,update,frames=len(plot_cords),interval=50)
     plt.show()

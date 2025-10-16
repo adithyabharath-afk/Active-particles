@@ -4,17 +4,21 @@ import matplotlib.pyplot as plt
 import molsim
 from matplotlib.animation import FuncAnimation
 #reduced parameters(sigma=1,epsilon=1,m=1)
-T=0.00  # Temperature in reduced units
-t=0.0007  # Time step in reduced units
-rho=1.0 #0.840
-Dr=0.005 #scaling of the random rotation
+U=3
+pe=140
+gamma=1 # Friction coefficient for Langevin thermostat
+phi=0.5#packing fraction
+T=1/U #temperature in reduced units
+t=0.00009  #Time step in reduced units
+D=T/gamma #translational diffusion coefficient
+tau = 1 / D# Brownian time
+v0 = pe / tau
+rho= phi/(np.pi/4)#0.840
+Dr=3*D #scaling of the random rotation
 reps=10000
-N=225
-r_c=3  # Cutoff radius for the Lennard-Jones potential
-gamma=10 # Friction coefficient for Langevin thermostat
-v0=50#self propulsion velocity
-mag=1.5
-sigma=np.sqrt(2*gamma*T)  # Noise strength for Langevin thermostat
+N=484
+r_c=2.5 # Cutoff radius for the Lennard-Jones potential
+sigma=np.sqrt(2*(gamma**2)*D)  # Noise strength for Langevin thermostat
 #initial positions and velocities
 def initialisation(N=484,rho=0.84):
     # Box length from density
@@ -209,7 +213,7 @@ def integrate(coordinates,velocities,e,time=10000):
         coordinates=x_n
         velocities=v_n
         if run_test==False:
-            U+=N*rho*2*np.pi*(0.5*(1/r_c)**10-(1/r_c)**4)  #replace with 2d tail correction
+            #U+=N*rho*2*np.pi*(0.5*(1/r_c)**10-(1/r_c)**4)  #replace with 2d tail correction
             total_energy=U+0.5*np.sum(v_n**2)
             U_series.append(U/N)
             print("Step:", i, "Total Energy:", total_energy, "Temperature:",np.mean(np.linalg.norm(v_n, axis=1)**2)/2, "Potential Energy:", (U/N))
