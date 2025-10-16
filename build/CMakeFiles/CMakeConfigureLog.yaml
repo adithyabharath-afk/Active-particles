@@ -4,18 +4,18 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.26100 - AMD64
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     mode: "file"
     variable: "src_in"
@@ -31,8 +31,8 @@ events:
     names:
       - "CMakeCCompilerId.c.in"
     candidate_directories:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/"
-    found: "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
         - "C:\\WINDOWS\\system32"
@@ -43,19 +43,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -65,10 +66,10 @@ events:
       
       The output was:
       0
-      MSBuild version 17.14.18+a338add32 for .NET Framework
-      Build started 26-08-2025 19:20:24.
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 15-10-2025 22:09:46.
       
-      Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -81,7 +82,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -89,13 +90,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\4.1.0\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\4.1.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.84
+      Time Elapsed 00:00:01.92
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -103,15 +104,15 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/4.1.0/CompilerIdC/CompilerIdC.exe
+        C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/4.1.2/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
@@ -136,11 +137,12 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/adith/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/adith/AppData/Local/Programs/Python/Python311/Lib/site-packages/"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
@@ -155,20 +157,21 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
@@ -193,11 +196,12 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/adith/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/adith/AppData/Local/Programs/Python/Python311/Lib/site-packages/"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
@@ -227,6 +231,9 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/lld-link.com"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/lld-link"
@@ -239,9 +246,9 @@ events:
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/lld-link.com"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/lld-link.exe"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/lld-link"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
@@ -256,18 +263,19 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
@@ -292,11 +300,12 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/adith/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/adith/AppData/Local/Programs/Python/Python311/Lib/site-packages/"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
@@ -311,18 +320,19 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_MT"
@@ -347,11 +357,12 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/adith/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/adith/AppData/Local/Programs/Python/Python311/Lib/site-packages/"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
@@ -381,6 +392,9 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/mt.com"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/mt.exe"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/mt"
@@ -393,9 +407,9 @@ events:
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/mt.com"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/mt.exe"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/mt"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/mt.com"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/mt.exe"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/mt"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/mt.com"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/mt.exe"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/mt"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
@@ -410,18 +424,19 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_AR"
@@ -446,11 +461,12 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/adith/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/adith/AppData/Local/Programs/Python/Python311/Lib/site-packages/"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
@@ -465,21 +481,22 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     mode: "file"
     variable: "src_in"
@@ -495,8 +512,8 @@ events:
     names:
       - "CMakeCXXCompilerId.cpp.in"
     candidate_directories:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/"
-    found: "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
         - "C:\\WINDOWS\\system32"
@@ -507,19 +524,20 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -529,10 +547,10 @@ events:
       
       The output was:
       0
-      MSBuild version 17.14.18+a338add32 for .NET Framework
-      Build started 26-08-2025 19:20:26.
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 15-10-2025 22:09:49.
       
-      Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -545,7 +563,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -553,13 +571,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\4.1.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.10
+      Time Elapsed 00:00:00.94
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -567,15 +585,15 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/4.1.0/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/4.1.2/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
@@ -600,11 +618,12 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/adith/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/adith/AppData/Local/Programs/Python/Python311/Lib/site-packages/"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
@@ -634,6 +653,9 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/lld-link.com"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/lld-link"
@@ -646,9 +668,9 @@ events:
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/lld-link.com"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/lld-link.exe"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/lld-link"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
@@ -663,21 +685,22 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
       - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
@@ -701,11 +724,12 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/adith/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/adith/AppData/Local/Programs/Python/Python311/Lib/site-packages/"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
@@ -713,9 +737,9 @@ events:
       - "C:/Program Files (x86)/bin/"
       - "C:/Program Files (x86)/sbin/"
       - "C:/Program Files (x86)/"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/sbin/"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
       - "C:/Program Files (x86)/ThesisProject/bin/"
       - "C:/Program Files (x86)/ThesisProject/sbin/"
       - "C:/Program Files (x86)/ThesisProject/"
@@ -744,6 +768,9 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/rc.com"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/rc.exe"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/rc"
@@ -756,9 +783,9 @@ events:
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/rc.com"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/rc.exe"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/rc"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/rc.com"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/rc.exe"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/rc"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/rc.com"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/rc.exe"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/rc"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
@@ -780,15 +807,15 @@ events:
       - "C:/Program Files (x86)/rc.com"
       - "C:/Program Files (x86)/rc.exe"
       - "C:/Program Files (x86)/rc"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/rc.com"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/rc.exe"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/rc"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/sbin/rc.com"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/sbin/rc.exe"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/sbin/rc"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/rc.com"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/rc.exe"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
       - "C:/Program Files (x86)/ThesisProject/bin/rc.com"
       - "C:/Program Files (x86)/ThesisProject/bin/rc.exe"
       - "C:/Program Files (x86)/ThesisProject/bin/rc"
@@ -809,30 +836,31 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThesisProject"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
-        - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64"
+        - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/ThesisProject"
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-96ttwp"
-      binary: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-96ttwp"
+      source: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-ycq3i3"
+      binary: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-ycq3i3"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -841,47 +869,47 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-96ttwp'
+        Change Dir: 'C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-ycq3i3'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ed86c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.14.18+a338add32 for .NET Framework
-        Build started 26-08-2025 19:20:27.
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f699b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 15-10-2025 22:09:50.
         
-        Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-96ttwp\\cmTC_ed86c.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycq3i3\\cmTC_f699b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_ed86c.dir\\Debug\\".
+          Creating directory "cmTC_f699b.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-96ttwp\\Debug\\".
-          Creating directory "cmTC_ed86c.dir\\Debug\\cmTC_ed86c.tlog\\".
+          Creating directory "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycq3i3\\Debug\\".
+          Creating directory "cmTC_f699b.dir\\Debug\\cmTC_f699b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ed86c.dir\\Debug\\cmTC_ed86c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_ed86c.dir\\Debug\\cmTC_ed86c.tlog\\unsuccessfulbuild".
+          Creating "cmTC_f699b.dir\\Debug\\cmTC_f699b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f699b.dir\\Debug\\cmTC_f699b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ed86c.dir\\Debug\\\\" /Fd"cmTC_ed86c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_f699b.dir\\Debug\\\\" /Fd"cmTC_f699b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ed86c.dir\\Debug\\\\" /Fd"cmTC_ed86c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_f699b.dir\\Debug\\\\" /Fd"cmTC_f699b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-96ttwp\\Debug\\cmTC_ed86c.exe" /INCREMENTAL /ILK:"cmTC_ed86c.dir\\Debug\\cmTC_ed86c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-96ttwp/Debug/cmTC_ed86c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-96ttwp/Debug/cmTC_ed86c.lib" /MACHINE:X64  /machine:x64 cmTC_ed86c.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_ed86c.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-96ttwp\\Debug\\cmTC_ed86c.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycq3i3\\Debug\\cmTC_f699b.exe" /INCREMENTAL /ILK:"cmTC_f699b.dir\\Debug\\cmTC_f699b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-ycq3i3/Debug/cmTC_f699b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-ycq3i3/Debug/cmTC_f699b.lib" /MACHINE:X64  /machine:x64 cmTC_f699b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f699b.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycq3i3\\Debug\\cmTC_f699b.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_ed86c.dir\\Debug\\cmTC_ed86c.tlog\\unsuccessfulbuild".
-          Touching "cmTC_ed86c.dir\\Debug\\cmTC_ed86c.tlog\\cmTC_ed86c.lastbuildstate".
-        Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-96ttwp\\cmTC_ed86c.vcxproj" (default targets).
+          Deleting file "cmTC_f699b.dir\\Debug\\cmTC_f699b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f699b.dir\\Debug\\cmTC_f699b.tlog\\cmTC_f699b.lastbuildstate".
+        Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycq3i3\\cmTC_f699b.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.81
+        Time Elapsed 00:00:00.84
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
@@ -897,25 +925,25 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.44.35214.0
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-qe5wme"
-      binary: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-qe5wme"
+      source: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-etlkkh"
+      binary: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-etlkkh"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -925,47 +953,47 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-qe5wme'
+        Change Dir: 'C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-etlkkh'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8302c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.14.18+a338add32 for .NET Framework
-        Build started 26-08-2025 19:20:29.
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0ad93.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 15-10-2025 22:09:52.
         
-        Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qe5wme\\cmTC_8302c.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etlkkh\\cmTC_0ad93.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_8302c.dir\\Debug\\".
+          Creating directory "cmTC_0ad93.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qe5wme\\Debug\\".
-          Creating directory "cmTC_8302c.dir\\Debug\\cmTC_8302c.tlog\\".
+          Creating directory "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etlkkh\\Debug\\".
+          Creating directory "cmTC_0ad93.dir\\Debug\\cmTC_0ad93.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_8302c.dir\\Debug\\cmTC_8302c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_8302c.dir\\Debug\\cmTC_8302c.tlog\\unsuccessfulbuild".
+          Creating "cmTC_0ad93.dir\\Debug\\cmTC_0ad93.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0ad93.dir\\Debug\\cmTC_0ad93.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_8302c.dir\\Debug\\\\" /Fd"cmTC_8302c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_0ad93.dir\\Debug\\\\" /Fd"cmTC_0ad93.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_8302c.dir\\Debug\\\\" /Fd"cmTC_8302c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_0ad93.dir\\Debug\\\\" /Fd"cmTC_0ad93.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qe5wme\\Debug\\cmTC_8302c.exe" /INCREMENTAL /ILK:"cmTC_8302c.dir\\Debug\\cmTC_8302c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-qe5wme/Debug/cmTC_8302c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-qe5wme/Debug/cmTC_8302c.lib" /MACHINE:X64  /machine:x64 cmTC_8302c.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_8302c.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qe5wme\\Debug\\cmTC_8302c.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etlkkh\\Debug\\cmTC_0ad93.exe" /INCREMENTAL /ILK:"cmTC_0ad93.dir\\Debug\\cmTC_0ad93.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-etlkkh/Debug/cmTC_0ad93.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-etlkkh/Debug/cmTC_0ad93.lib" /MACHINE:X64  /machine:x64 cmTC_0ad93.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_0ad93.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etlkkh\\Debug\\cmTC_0ad93.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_8302c.dir\\Debug\\cmTC_8302c.tlog\\unsuccessfulbuild".
-          Touching "cmTC_8302c.dir\\Debug\\cmTC_8302c.tlog\\cmTC_8302c.lastbuildstate".
-        Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qe5wme\\cmTC_8302c.vcxproj" (default targets).
+          Deleting file "cmTC_0ad93.dir\\Debug\\cmTC_0ad93.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0ad93.dir\\Debug\\cmTC_0ad93.tlog\\cmTC_0ad93.lastbuildstate".
+        Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etlkkh\\cmTC_0ad93.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.76
+        Time Elapsed 00:00:00.82
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
@@ -981,19 +1009,19 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.44.35214.0
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/FindPython/Support.cmake:2053 (find_program)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:2053 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
       - "CMakeLists.txt:3 (find_package)"
     mode: "program"
     variable: "_Python3_EXECUTABLE"
@@ -5436,24 +5464,25 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThesisProject"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
-        - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64"
+        - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/ThesisProject"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/FindPython/Support.cmake:2430 (find_program)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:2430 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
       - "CMakeLists.txt:3 (find_package)"
     mode: "program"
     variable: "_Python3_EXECUTABLE_DEBUG"
@@ -5493,24 +5522,25 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThesisProject"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
-        - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64"
+        - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/ThesisProject"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/FindPython/Support.cmake:3194 (find_library)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:3194 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
       - "CMakeLists.txt:3 (find_package)"
     mode: "library"
     variable: "_Python3_LIBRARY_RELEASE"
@@ -5545,28 +5575,29 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThesisProject"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
-        - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64"
+        - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/ThesisProject"
       CMAKE_SYSTEM_LIBRARY_PATH:
         - "C:/Program Files (x86)/ThesisProject/bin"
-        - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin"
+        - "C:/Program Files/CMake/bin"
         - "/bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/FindPython/Support.cmake:3382 (find_library)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:3382 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
       - "CMakeLists.txt:3 (find_package)"
     mode: "library"
     variable: "_Python3_LIBRARY_DEBUG"
@@ -5596,29 +5627,30 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThesisProject"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
-        - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64"
+        - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/ThesisProject"
       CMAKE_SYSTEM_LIBRARY_PATH:
         - "C:/Program Files (x86)/ThesisProject/bin"
-        - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin"
+        - "C:/Program Files/CMake/bin"
         - "/bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/FindPython/Support.cmake:1403 (find_library)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/FindPython/Support.cmake:3400 (_python_find_runtime_library)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:1403 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:3400 (_python_find_runtime_library)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
       - "CMakeLists.txt:3 (find_package)"
     mode: "library"
     variable: "_Python3_RUNTIME_LIBRARY_RELEASE"
@@ -5655,6 +5687,8 @@ events:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bin/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/bin/"
       - "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/adith/AppData/Local/Programs/Microsoft VS Code/bin/bin/"
@@ -5663,8 +5697,8 @@ events:
       - "C:/Users/adith/AppData/Local/Programs/Python/Python311/Lib/site-packages/"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/bin/"
       - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/bin/"
-      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.10.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/bin/"
+      - "C:/Users/adith/.vscode/extensions/ms-python.debugpy-2025.14.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bin/"
       - "C:/Users/adith/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Program Files/lib/bin/"
@@ -5675,10 +5709,10 @@ events:
       - "C:/Program Files (x86)/lib/"
       - "C:/Program Files (x86)/bin/"
       - "C:/Program Files (x86)/"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/lib/bin/"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/lib/"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin/"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/"
+      - "C:/Program Files/CMake/lib/bin/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/"
       - "C:/Program Files (x86)/ThesisProject/lib/bin/"
       - "C:/Program Files (x86)/ThesisProject/lib/"
       - "C:/Program Files (x86)/ThesisProject/bin/"
@@ -5705,28 +5739,29 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThesisProject"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
-        - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64"
+        - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/ThesisProject"
       CMAKE_SYSTEM_LIBRARY_PATH:
         - "C:/Program Files (x86)/ThesisProject/bin"
-        - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/bin"
+        - "C:/Program Files/CMake/bin"
         - "/bin"
   -
     kind: "find-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/FindPython/Support.cmake:3709 (find_path)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython/Support.cmake:3709 (find_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPython3.cmake:656 (include)"
       - "CMakeLists.txt:3 (find_package)"
     mode: "path"
     variable: "_Python3_INCLUDE_DIR"
@@ -5754,25 +5789,26 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThesisProject"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
-        - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64"
+        - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/ThesisProject"
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64/share/cmake-4.1/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
       - "C:/Users/adith/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:321 (check_cxx_compiler_flag)"
       - "C:/Users/adith/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:393 (_pybind11_return_if_cxx_and_linker_flags_work)"
       - "C:/Users/adith/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:427 (_pybind11_generate_lto)"
@@ -5781,8 +5817,8 @@ events:
     checks:
       - "Performing Test HAS_MSVC_GL_LTCG"
     directories:
-      source: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-idornx"
-      binary: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-idornx"
+      source: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-vafaow"
+      binary: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-vafaow"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -5791,48 +5827,48 @@ events:
       variable: "HAS_MSVC_GL_LTCG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-idornx'
+        Change Dir: 'C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-vafaow'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_710df.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.14.18+a338add32 for .NET Framework
-        Build started 26-08-2025 19:20:32.
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a6f45.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 15-10-2025 22:09:57.
         
-        Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-idornx\\cmTC_710df.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vafaow\\cmTC_a6f45.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_710df.dir\\Debug\\".
+          Creating directory "cmTC_a6f45.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-idornx\\Debug\\".
-          Creating directory "cmTC_710df.dir\\Debug\\cmTC_710df.tlog\\".
+          Creating directory "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vafaow\\Debug\\".
+          Creating directory "cmTC_a6f45.dir\\Debug\\cmTC_a6f45.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_710df.dir\\Debug\\cmTC_710df.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_710df.dir\\Debug\\cmTC_710df.tlog\\unsuccessfulbuild".
+          Creating "cmTC_a6f45.dir\\Debug\\cmTC_a6f45.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a6f45.dir\\Debug\\cmTC_a6f45.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_710df.dir\\Debug\\\\" /Fd"cmTC_710df.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-idornx\\src.cxx"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_a6f45.dir\\Debug\\\\" /Fd"cmTC_a6f45.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vafaow\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_710df.dir\\Debug\\\\" /Fd"cmTC_710df.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-idornx\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /Fo"cmTC_a6f45.dir\\Debug\\\\" /Fd"cmTC_a6f45.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vafaow\\src.cxx"
           src.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-idornx\\Debug\\cmTC_710df.exe" /INCREMENTAL /ILK:"cmTC_710df.dir\\Debug\\cmTC_710df.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-idornx/Debug/cmTC_710df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-idornx/Debug/cmTC_710df.lib" /MACHINE:X64  /machine:x64 cmTC_710df.dir\\Debug\\src.obj
-        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-idornx\\cmTC_710df.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vafaow\\Debug\\cmTC_a6f45.exe" /INCREMENTAL /ILK:"cmTC_a6f45.dir\\Debug\\cmTC_a6f45.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-vafaow/Debug/cmTC_a6f45.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-vafaow/Debug/cmTC_a6f45.lib" /MACHINE:X64  /machine:x64 cmTC_a6f45.dir\\Debug\\src.obj
+        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vafaow\\cmTC_a6f45.vcxproj]
           Generating code
           Finished generating code
-          cmTC_710df.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-idornx\\Debug\\cmTC_710df.exe
+          cmTC_a6f45.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vafaow\\Debug\\cmTC_a6f45.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_710df.dir\\Debug\\cmTC_710df.tlog\\unsuccessfulbuild".
-          Touching "cmTC_710df.dir\\Debug\\cmTC_710df.tlog\\cmTC_710df.lastbuildstate".
-        Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-idornx\\cmTC_710df.vcxproj" (default targets).
+          Deleting file "cmTC_a6f45.dir\\Debug\\cmTC_a6f45.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a6f45.dir\\Debug\\cmTC_a6f45.tlog\\cmTC_a6f45.lastbuildstate".
+        Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vafaow\\cmTC_a6f45.vcxproj" (default targets).
         
         Build succeeded.
         
-        "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-idornx\\cmTC_710df.vcxproj" (default target) (1) ->
+        "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vafaow\\cmTC_a6f45.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-idornx\\cmTC_710df.vcxproj]
+          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vafaow\\cmTC_a6f45.vcxproj]
         
             1 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.80
+        Time Elapsed 00:00:00.85
         
       exitCode: 0
   -
@@ -5943,6 +5979,14 @@ events:
         mode: "config"
         reason: "no_exist"
       -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
         path: "C:/Users/adith/AppData/Local/Microsoft/WindowsApps/pybind11Config.cmake"
         mode: "config"
         reason: "no_exist"
@@ -6004,17 +6048,18 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\adith\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages"
         - "C:\\Users\\adith\\OneDrive\\Desktop\\cmake\\cmake-4.1.0-windows-x86_64\\bin"
-        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.10.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\adith\\.vscode\\extensions\\ms-python.debugpy-2025.14.0-win32-x64\\bundled\\scripts\\noConfigScripts"
         - "c:\\Users\\adith\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThesisProject"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
-        - "C:/Users/adith/OneDrive/Desktop/cmake/cmake-4.1.0-windows-x86_64"
+        - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/ThesisProject"
 ...
