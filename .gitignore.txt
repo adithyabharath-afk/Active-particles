@@ -1,0 +1,15 @@
+This file tells Git which files and folders to ignore.
+Build artifacts from compiling C++
+build/
+*.o
+*.obj
+*.so
+*.pyd
+
+IDE-specific folders (good practice)
+.vscode/
+.vs/
+
+Python caches
+pycache/
+*.pyc
