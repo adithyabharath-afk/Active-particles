@@ -2,6 +2,7 @@
 #include <cmath>
 #include <vector>
 #include <iostream> // Good for debugging if needed
+#include <omp.h>
 
 // --- Important ---
 // The class definition is GONE from this file. We are only IMPLEMENTING
@@ -29,11 +30,13 @@ void simulation::makegrid(const std::vector<double>& coordinates) {
     for (int i = 0; i < N; ++i) {
         double x = coordinates[2 * i];
         double y = coordinates[2 * i + 1];
-        int cellx = static_cast<int>(floor(x / r_c));
-        int celly = static_cast<int>(floor(y / r_c));
-        if (cellx >= 0 && cellx < nx && celly >= 0 && celly < ny) {
-            grid[cellx][celly].push_back(i);
-        }
+        int cellx = static_cast<int>(x / r_c);
+        int celly = static_cast<int>(y / r_c);
+        if (cellx >= nx) cellx = nx - 1;
+        if (celly >= ny) celly = ny - 1;
+        if (cellx < 0) cellx = 0; 
+        if (celly < 0) celly = 0; 
+        grid[cellx][celly].push_back(i);
     }
 }
 
@@ -44,7 +47,7 @@ std::pair<std::vector<double>, double> simulation::force2dhp(const std::vector<d
     double r_c2 = r_c * r_c;
     double r_c6_inv = 1.0 / (r_c2 * r_c2 * r_c2);
     double U_shift = 4.0 * (r_c6_inv * r_c6_inv - r_c6_inv);
-
+    #pragma omp parallel for reduction(+:U)
     for (int cx = 0; cx < nx; ++cx) {
         for (int cy = 0; cy < ny; ++cy) {
             for (int dx = -1; dx <= 1; ++dx) {
@@ -62,17 +65,22 @@ std::pair<std::vector<double>, double> simulation::force2dhp(const std::vector<d
                             r_ij_y -= L * round(r_ij_y / L);
                             double r_sq = r_ij_x * r_ij_x + r_ij_y * r_ij_y;
                             if (r_sq > r_c2) continue;
-                            
-                            r = sqrt(r_sq);
                             r2 = 1.0 / r_sq;
                             r6 = r2 * r2 * r2;
                             r12 = r6 * r6;
                             force_magnitude = (48.0 * r12 - 24.0 * r6) * r2;
+                            /*if (force_magnitude>=10^6){
+                                std::cout<<"Huge force detected between particles ";
+                            }*/
                             lenard_force_x = r_ij_x * force_magnitude;
                             lenard_force_y = r_ij_y * force_magnitude;
+                            #pragma omp atomic
                             forces_vec[2 * i] += lenard_force_x;
+                            #pragma omp atomic
                             forces_vec[2 * i + 1] += lenard_force_y;
+                            #pragma omp atomic
                             forces_vec[2 * j] -= lenard_force_x;
+                            #pragma omp atomic
                             forces_vec[2 * j + 1] -= lenard_force_y;
                             lenard_potential = 4.0 * (r12 - r6) - U_shift;
                             U += lenard_potential;
