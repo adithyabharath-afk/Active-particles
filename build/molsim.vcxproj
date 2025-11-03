@@ -365,6 +365,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="C:\Users\adith\OneDrive\Desktop\ThesisProject\src\Bindings.cpp" />
     <ClCompile Include="C:\Users\adith\OneDrive\Desktop\ThesisProject\src\force_functions.cpp" />
+    <ClCompile Include="C:\Users\adith\OneDrive\Desktop\ThesisProject\src\lj.cpp" />
+    <ClCompile Include="C:\Users\adith\OneDrive\Desktop\ThesisProject\src\mag_force.cpp" />
+    <ClCompile Include="C:\Users\adith\OneDrive\Desktop\ThesisProject\src\magforce.cpp" />
+    <ClCompile Include="C:\Users\adith\OneDrive\Desktop\ThesisProject\src\magtorque.cpp" />
     <ClCompile Include="C:\Users\adith\OneDrive\Desktop\ThesisProject\src\simulation.cpp" />
   </ItemGroup>
   <ItemGroup />

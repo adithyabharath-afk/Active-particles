@@ -7,6 +7,18 @@
     <ClCompile Include="C:\Users\adith\OneDrive\Desktop\ThesisProject\src\force_functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\adith\OneDrive\Desktop\ThesisProject\src\lj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adith\OneDrive\Desktop\ThesisProject\src\mag_force.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adith\OneDrive\Desktop\ThesisProject\src\magforce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\adith\OneDrive\Desktop\ThesisProject\src\magtorque.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\adith\OneDrive\Desktop\ThesisProject\src\simulation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

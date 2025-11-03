@@ -1,3 +1,7 @@
 C:\Users\adith\OneDrive\Desktop\ThesisProject\src\Bindings.cpp;C:\Users\adith\OneDrive\Desktop\ThesisProject\build\molsim.dir\Debug\Bindings.obj
 C:\Users\adith\OneDrive\Desktop\ThesisProject\src\force_functions.cpp;C:\Users\adith\OneDrive\Desktop\ThesisProject\build\molsim.dir\Debug\force_functions.obj
+C:\Users\adith\OneDrive\Desktop\ThesisProject\src\lj.cpp;C:\Users\adith\OneDrive\Desktop\ThesisProject\build\molsim.dir\Debug\lj.obj
+C:\Users\adith\OneDrive\Desktop\ThesisProject\src\mag_force.cpp;C:\Users\adith\OneDrive\Desktop\ThesisProject\build\molsim.dir\Debug\mag_force.obj
+C:\Users\adith\OneDrive\Desktop\ThesisProject\src\magforce.cpp;C:\Users\adith\OneDrive\Desktop\ThesisProject\build\molsim.dir\Debug\magforce.obj
+C:\Users\adith\OneDrive\Desktop\ThesisProject\src\magtorque.cpp;C:\Users\adith\OneDrive\Desktop\ThesisProject\build\molsim.dir\Debug\magtorque.obj
 C:\Users\adith\OneDrive\Desktop\ThesisProject\src\simulation.cpp;C:\Users\adith\OneDrive\Desktop\ThesisProject\build\molsim.dir\Debug\simulation.obj

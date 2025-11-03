@@ -6063,3 +6063,223 @@ events:
         - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/ThesisProject"
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:251 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-6vckk3"
+      binary: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-6vckk3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-6vckk3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_94af4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 22-10-2025 18:38:35.
+        
+        Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6vckk3\\cmTC_94af4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_94af4.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6vckk3\\Debug\\".
+          Creating directory "cmTC_94af4.dir\\Debug\\cmTC_94af4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_94af4.dir\\Debug\\cmTC_94af4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_94af4.dir\\Debug\\cmTC_94af4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /openmp /Fo"cmTC_94af4.dir\\Debug\\\\" /Fd"cmTC_94af4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6vckk3\\OpenMPTryFlag.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /openmp /Fo"cmTC_94af4.dir\\Debug\\\\" /Fd"cmTC_94af4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6vckk3\\OpenMPTryFlag.c"
+          OpenMPTryFlag.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6vckk3\\Debug\\cmTC_94af4.exe" /INCREMENTAL /ILK:"cmTC_94af4.dir\\Debug\\cmTC_94af4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-6vckk3/Debug/cmTC_94af4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-6vckk3/Debug/cmTC_94af4.lib" /MACHINE:X64  /machine:x64 cmTC_94af4.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_94af4.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6vckk3\\Debug\\cmTC_94af4.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_94af4.dir\\Debug\\cmTC_94af4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_94af4.dir\\Debug\\cmTC_94af4.tlog\\cmTC_94af4.lastbuildstate".
+        Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6vckk3\\cmTC_94af4.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.25
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:251 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-dpfpf9"
+      binary: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-dpfpf9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-dpfpf9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bc2be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 22-10-2025 18:38:37.
+        
+        Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dpfpf9\\cmTC_bc2be.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bc2be.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dpfpf9\\Debug\\".
+          Creating directory "cmTC_bc2be.dir\\Debug\\cmTC_bc2be.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bc2be.dir\\Debug\\cmTC_bc2be.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bc2be.dir\\Debug\\cmTC_bc2be.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /openmp /Fo"cmTC_bc2be.dir\\Debug\\\\" /Fd"cmTC_bc2be.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dpfpf9\\OpenMPTryFlag.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /openmp /Fo"cmTC_bc2be.dir\\Debug\\\\" /Fd"cmTC_bc2be.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dpfpf9\\OpenMPTryFlag.cpp"
+          OpenMPTryFlag.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dpfpf9\\Debug\\cmTC_bc2be.exe" /INCREMENTAL /ILK:"cmTC_bc2be.dir\\Debug\\cmTC_bc2be.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-dpfpf9/Debug/cmTC_bc2be.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-dpfpf9/Debug/cmTC_bc2be.lib" /MACHINE:X64  /machine:x64 cmTC_bc2be.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_bc2be.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dpfpf9\\Debug\\cmTC_bc2be.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bc2be.dir\\Debug\\cmTC_bc2be.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bc2be.dir\\Debug\\cmTC_bc2be.tlog\\cmTC_bc2be.lastbuildstate".
+        Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dpfpf9\\cmTC_bc2be.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.72
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:492 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:632 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-seid3u"
+      binary: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-seid3u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-seid3u'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_64d43.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 22-10-2025 18:38:38.
+        
+        Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-seid3u\\cmTC_64d43.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_64d43.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-seid3u\\Debug\\".
+          Creating directory "cmTC_64d43.dir\\Debug\\cmTC_64d43.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_64d43.dir\\Debug\\cmTC_64d43.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_64d43.dir\\Debug\\cmTC_64d43.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /openmp /Fo"cmTC_64d43.dir\\Debug\\\\" /Fd"cmTC_64d43.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-seid3u\\OpenMPCheckVersion.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /openmp /Fo"cmTC_64d43.dir\\Debug\\\\" /Fd"cmTC_64d43.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-seid3u\\OpenMPCheckVersion.c"
+          OpenMPCheckVersion.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-seid3u\\Debug\\cmTC_64d43.exe" /INCREMENTAL /ILK:"cmTC_64d43.dir\\Debug\\cmTC_64d43.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-seid3u/Debug/cmTC_64d43.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-seid3u/Debug/cmTC_64d43.lib" /MACHINE:X64  /machine:x64 cmTC_64d43.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_64d43.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-seid3u\\Debug\\cmTC_64d43.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_64d43.dir\\Debug\\cmTC_64d43.tlog\\unsuccessfulbuild".
+          Touching "cmTC_64d43.dir\\Debug\\cmTC_64d43.tlog\\cmTC_64d43.lastbuildstate".
+        Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-seid3u\\cmTC_64d43.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.71
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:492 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:632 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-cv9bw5"
+      binary: "C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-cv9bw5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-cv9bw5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_aeeaa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 22-10-2025 18:38:39.
+        
+        Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv9bw5\\cmTC_aeeaa.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_aeeaa.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv9bw5\\Debug\\".
+          Creating directory "cmTC_aeeaa.dir\\Debug\\cmTC_aeeaa.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_aeeaa.dir\\Debug\\cmTC_aeeaa.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_aeeaa.dir\\Debug\\cmTC_aeeaa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /openmp /Fo"cmTC_aeeaa.dir\\Debug\\\\" /Fd"cmTC_aeeaa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv9bw5\\OpenMPCheckVersion.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /GR /openmp /Fo"cmTC_aeeaa.dir\\Debug\\\\" /Fd"cmTC_aeeaa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv9bw5\\OpenMPCheckVersion.cpp"
+          OpenMPCheckVersion.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv9bw5\\Debug\\cmTC_aeeaa.exe" /INCREMENTAL /ILK:"cmTC_aeeaa.dir\\Debug\\cmTC_aeeaa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-cv9bw5/Debug/cmTC_aeeaa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/adith/OneDrive/Desktop/ThesisProject/build/CMakeFiles/CMakeScratch/TryCompile-cv9bw5/Debug/cmTC_aeeaa.lib" /MACHINE:X64  /machine:x64 cmTC_aeeaa.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_aeeaa.vcxproj -> C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv9bw5\\Debug\\cmTC_aeeaa.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_aeeaa.dir\\Debug\\cmTC_aeeaa.tlog\\unsuccessfulbuild".
+          Touching "cmTC_aeeaa.dir\\Debug\\cmTC_aeeaa.tlog\\cmTC_aeeaa.lastbuildstate".
+        Done Building Project "C:\\Users\\adith\\OneDrive\\Desktop\\ThesisProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cv9bw5\\cmTC_aeeaa.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.72
+        
+      exitCode: 0
+...
