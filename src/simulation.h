@@ -20,9 +20,11 @@ public:
     // Constructor declaration
     simulation(double Length, double cutoff, int num_particles,double mag_moment,double mag_field_x,double mag_field_y);
 
-    // Method declarations
-    void makegrid(const std::vector<double>& coordinates);
+    // Method declaration
     std::pair<std::vector<double>,std::vector<double>> force2dhp(const std::vector<double>& coordinates,const std::vector<double>& orientation);
+    double phip(const std::vector<double>& coordinates,const std::vector<double>& orientation,double del_c);
+    // set external magnetic field components
+    void set_field(double Bx, double By);
 };
 
 #endif // SIMULATION_H

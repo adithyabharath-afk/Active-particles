@@ -7,7 +7,7 @@ double torque(double nu,double r_x,double r_y,double e_ix,double e_iy,double e_j
     r=std::sqrt(r_sq);
     r_x=r_x/(r);
     r_y=r_y/(r);
-    r3=1/pow(r_sq,3/2);
-    t_z=(nu*nu)*r3*(3*(e_ix*r_x+e_iy*r_y)*(e_jx*r_y-e_jy*r_x)+(e_ix*e_jy-e_iy*e_jx));
+    r3=1/pow(r_sq,1.5);
+    t_z=(nu*nu)*r3*(3*(e_jx*r_x+e_jy*r_y)*(e_ix*r_y-e_iy*r_x)-(e_ix*e_jy-e_iy*e_jx));
     return t_z;
 }

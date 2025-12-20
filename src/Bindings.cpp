@@ -19,8 +19,9 @@ PYBIND11_MODULE(molsim, m) {
     py::class_<simulation>(m, "Simulation")
         .def(py::init<double, double, int,double,double,double>(),
              py::arg("length"), py::arg("cutoff"), py::arg("num_particles"),py::arg("mag_moment"),py::arg("B_x"),py::arg("B_y"))
-        .def("makegrid", &simulation::makegrid, "Build the neighbor list grid",
-             py::arg("coordinates"))
         .def("force2dhp", &simulation::force2dhp, "Compute 2D forces using the grid",
-             py::arg("coordinates"),py::arg("orientation"));
+             py::arg("coordinates"),py::arg("orientation"))
+         .def("set_field", &simulation::set_field, "Set external magnetic field components",
+               py::arg("B_x"), py::arg("B_y"))
+        .def("phip",&simulation::phip,"compute the polarisation order parameter",py::arg("coordinates"),py::arg("orientation"),py::arg("cutoff"));
 }
